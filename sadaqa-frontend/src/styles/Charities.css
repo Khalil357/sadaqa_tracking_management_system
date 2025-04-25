@@ -1,0 +1,112 @@
+/* Charities.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Search input */
+input[type="text"] {
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #2563eb; /* Blue-600 */
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
+/* Charity Card */
+.charity-card {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.charity-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.charity-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.charity-img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Progress Bar */
+.progress-container {
+  background-color: #e5e7eb;
+  border-radius: 9999px;
+  height: 0.75rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: #10b981;
+  height: 100%;
+  border-radius: 9999px;
+  transition: width 0.5s ease;
+}
+
+/* Verified Tag */
+.verified-badge {
+  background-color: #d1fae5;
+  color: #065f46;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* Campaign list */
+.campaign-list {
+  margin-top: 0.5rem;
+  padding-left: 1.25rem;
+  list-style-type: disc;
+  color: #374151;
+}
+
+/* Buttons */
+.charity-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.donate-btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.donate-btn:hover {
+  background-color: #1e40af;
+}
+
+.volunteer-btn {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.volunteer-btn:hover {
+  background-color: #d97706;
+}
+
+.like-btn {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.like-btn:hover {
+  background-color: #e5e7eb;
+}

@@ -1,0 +1,96 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #121212;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .login-box {
+    background: #1f1f1f;
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    max-width: 400px;
+    color: #ffffff;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .login-box label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #dddddd;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    background: #2a2a2a;
+    border: 1px solid #444;
+    color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .login-box input:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  .login-box button,
+  .login-box .btn {
+    width: 100%;
+    padding: 0.75rem;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-box button:hover,
+  .login-box .btn:hover {
+    background: #357ab9;
+  }
+  
+  .login-box .register-link {
+    text-align: center;
+    margin-top: 1rem;
+    color: #cccccc;
+  }
+  
+  .login-box .login-options {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .login-box .toggle-otp,
+  .login-box .google-login {
+    cursor: pointer;
+    color: #4a90e2;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    transition: color 0.3s;
+  }
+  
+  .login-box .toggle-otp:hover,
+  .login-box .google-login:hover {
+    color: #6aa6e9;
+  }
+  
+  .login-box .error-message {
+    color: #f56c6c;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  

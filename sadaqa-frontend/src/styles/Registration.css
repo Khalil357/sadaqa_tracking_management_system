@@ -1,0 +1,99 @@
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #121212;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .registration-box {
+    background: #1f1f1f;
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    max-width: 500px;
+    color: #ffffff;
+  }
+  
+  .registration-box h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .registration-box label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #dddddd;
+  }
+  
+  .registration-box input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    background: #2a2a2a;
+    border: 1px solid #444;
+    color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .registration-box input:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  .registration-box button,
+  .registration-box .btn {
+    width: 100%;
+    padding: 0.75rem;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 0.5rem;
+  }
+  
+  .registration-box button:hover,
+  .registration-box .btn:hover {
+    background: #357ab9;
+  }
+  
+  .registration-box .google-btn {
+    background-color: #db4437;
+  }
+  
+  .registration-box .otp-btn {
+    background-color: #444;
+  }
+  
+  .registration-box .alt-options {
+    margin-top: 1.5rem;
+  }
+  
+  .registration-box .error-text {
+    color: #f56c6c;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .registration-box .login-link {
+    text-align: center;
+    margin-top: 1rem;
+    color: #cccccc;
+  }
+  
+  .registration-box .login-link a {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  
+  .registration-box .login-link a:hover {
+    color: #6aa6e9;
+  }
+  

@@ -1,0 +1,121 @@
+/* General Styling */
+.about-page {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: #1c3d3a;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background: linear-gradient(rgba(0, 124, 96, 0.8), rgba(0, 124, 96, 0.8)),
+                url('../assets/Charity2.jpg') center/cover no-repeat;
+    padding: 100px 0;
+  }
+  
+  .about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+  
+  /* Mission Section */
+  .mission-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 124, 96, 0.2);
+  }
+  
+  .mission-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  
+  .mission-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Stats Section */
+  .stats-section {
+    background-color: #007c60;
+  }
+  
+  .stats-section h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .stats-section p {
+    font-size: 1rem;
+    opacity: 0.95;
+  }
+  
+  /* Placeholder Section */
+  .placeholder-template {
+    background-color: #ffffff;
+    color: #666;
+    font-style: italic;
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    background-color: #1c3d3a;
+    color: #ffffff;
+  }
+  
+  .cta-section .btn {
+    background-color: #ffffff;
+    color: #007c60;
+    border: none;
+    font-weight: bold;
+    padding: 0.7rem 1.5rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-section .btn:hover {
+    background-color: #f1f1f1;
+    color: #005c47;
+  }
+  
+  /* Animations */
+  .fade-in {
+    animation: fadeInUp 0.8s ease-out;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(25px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Tweaks */
+  @media (max-width: 768px) {
+    .about-hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .mission-image {
+      max-height: 300px;
+    }
+  
+    .stats-section h2 {
+      font-size: 1.5rem;
+    }
+  }
+  

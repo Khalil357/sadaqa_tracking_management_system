@@ -1,0 +1,180 @@
+/* Importing modern font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  --green-deep: #2f6653;
+  --green-soft: #dbeae3;
+  --green-cream: #f4f6f2;
+  --green-lighter: #edf2f0;
+  --green-dark-accent: #1e3d32;
+  --text-main: #2d2d2d;
+  --text-light: #ffffff;
+  --text-muted: #4f4f4f;
+  --border-radius: 8px;
+  --teal-dark: #0f434e; /* Extracted from image */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f8f9f7;
+  color: var(--text-main);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--teal-dark);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0.8rem 2rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: var(--text-light) !important;
+  font-size: 1.4rem;
+}
+
+.navbar .nav-link {
+  color: #f0f0f0 !important;
+  transition: color 0.3s;
+  margin-left: 1rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #dbeae3 !important; /* green-soft on hover */
+}
+
+/* Buttons */
+.btn-light,
+.btn-outline-light {
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: var(--teal-dark);
+}
+
+.btn-light:hover {
+  background-color: var(--green-soft);
+  color: var(--teal-dark);
+}
+
+.btn-outline-light {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.btn-outline-light:hover {
+  background-color: var(--teal-dark);
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: var(--green-soft);
+  text-align: center;
+  padding: 100px 20px;
+  color: var(--green-dark-accent);
+  animation: fadeIn 1s ease-in;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+/* About Section */
+.about-section {
+  background-color: var(--green-cream);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-weight: 600;
+  color: var(--green-deep);
+}
+
+.about-section p {
+  color: var(--text-muted);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Features / Charities Section */
+.features-section {
+  background-color: #f9f9f7;
+  padding: 60px 20px;
+}
+
+.card {
+  border: none;
+  border-radius: var(--border-radius);
+  transition: transform 0.3s ease;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(47, 102, 83, 0.1);
+}
+
+.card-title {
+  color: var(--green-deep);
+  font-weight: 600;
+}
+
+/* Donate and Contact Sections */
+#donate,
+#contact {
+  background-color: var(--green-lighter);
+  padding: 60px 20px;
+}
+
+#donate h2,
+#contact h2 {
+  color: var(--green-deep);
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  background-color: var(--green-deep);
+  color: var(--text-light);
+  padding: 20px 0;
+  text-align: center;
+  border-top: 6px solid var(--green-soft);
+  font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.navbar {
+  background-color: #0f434e !important;
+  height: 5rem;
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link:hover {
+  color: #dbeae3 !important;
+}
